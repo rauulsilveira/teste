@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Loja Brasil Show Car</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-dark text-white py-3">
+            <div class="col-sm-12">
+                <img src="img/logo.jpg" alt="Logo Loja" width="120" class="float-left mt-4 mr-3">
+                <h1 class="font-italic ml-5 text-center"> Loja Show Car </h1>
+                <h4 class="font-italic text-center"><i> Aqui vendemos sonhos em forma de carros possantes </i> </h4>
+                <img src="img/logo.jpg" alt="Logo Loja" width="120" class="float-right ">
+            </div>
+        </div>
+    </div>
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="Loja Show Car.html">Fábrica de sonhos</a></li>
+        <li class="breadcrumb-item"><a href="estoque.html"> Sessão dos tunados </a></li>
+        <li class="breadcrumb-item"><a href="vendidos.html">Carros que já passaram por nossa loja aqui!!</a></li>
+        <li class="breadcrumb-item"><a href="vendedores.html">Conheça nossos vendedores</a></li>
+        <li class="breadcrumb-item"><a href="formulario.html">Quer negociar?</a></li>
+
+
+    </ul>
+
+    <div class="row m-4 text-primary">
+        <div class="col-sm-3">
+            <h5> Aqui os modelos mais em conta da nossa loja </h5>
+            <div class="form-check">
+                <label class="form-check-label">
+            <input type="radio" class="form-check-input" autocheked name="carro" checked id="rblamborghini">lamborghini
+          </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="carro"  id="rbFerrari">Ferrari
+              </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="carro"  id="rbF1">F1
+                  </label>
+            </div>
+        </div>
+
+        <div class="col-sm-5">
+            <img src="img/lambo.jpg" alt="Foto Carro" class="img-fluid" id="imgCarro">
+            <!--  
+            <table>
+                <div class="card text-dark text-center">
+                    <div class="card-body">Informações do veículo</div>
+                    <p> Velocidade máxima: 55 km/h</p>
+                    <p> Motor: 1,0 lts V1 ( 1 Cavalo de potência) </p>
+                    <p> Potência: 100 - 140 HP</p>
+                    <p> Dimensões: 4.780-4.797 mm C x 2.030 mm L x 1.136 mm A</p>
+                </div>
+            </table>
+            -->
+        </div>
+        <div class="col-sm-4">
+            <h4>Escolha os opcionais:</h4>
+            <div class="form-check">
+                <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="ckgui">Com guincho (Pois os carros não ligam!!)
+          </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="ckfita">Com toca fitas
+          </label>
+                <p>
+                    <h5> Teste a sorte do dia e ganhe desconto!!</h5>
+                    <input type="button" class="btn btn-primary" id="btSorte" value="Sorte">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-danger text-white py-4">
+        <div class="col-sm-12">
+            <h3>Preço do Possante
+                <span id="outPreco"> R$ 5.900,00</span>
+
+
+            </h3>
+        </div>
+    </div>
+    <h3 id="outResposta"> </h3>
+
+    <script src="loja.js"></script>
+
+
+
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</html>
